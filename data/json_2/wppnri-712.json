@@ -1,8 +1,20 @@
 {
-  "type": "Polygon",
-  "coordinates": [
-    [
-      [
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#ffff80",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
         105.83277777777778,
         -4.165
       ],
@@ -74,6 +86,9 @@
         105.83277777777778,
         -4.165
       ]
-    ]
+          ]
+        ]
+      }
+    }
   ]
 }
